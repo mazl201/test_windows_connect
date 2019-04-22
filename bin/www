@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
-/**
- * Module dependencies.
- */
+var ss = require("../SocketServer");
+var ss = require("../SocketServerHttp");
 
 var app = require('../app');
 var debug = require('debug')('untitled1:server');
